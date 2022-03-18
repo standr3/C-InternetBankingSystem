@@ -1,7 +1,7 @@
 # C-InternetBankingSystem
 
 
-#[Server side]
+# [Server side]
 
 Structura Entry : Pe langa campurile precizate in enunt am adaugat doua campuri int -> locked (reprezinta starea contului - blocat sau nu), failed_logins (numarul de incercari de logare -> daca este mai mare sau egal cu 3 atunci contul va fi blocat)
 Structura Session : Reprezinta o sesiune creata de logarea unui utilizator. Caracterizata printr-un Entry care este accesat de client si PID-ul clientului.
@@ -25,7 +25,7 @@ Precizari suplimentare:
 - daca se doreste acceptarea doar unui fisier de input cu numele users_data_file atunci va trebui decomentat codul din functia checkServerData
 - nu este implementata functionalitatea "quit" pentru server
 
-#[Client side]
+# [Client side]
 
 Functiile lenHelper si printLen : Pentru aflarea numarului de cifre ale PID-ului.
 
